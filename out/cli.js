@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 "use strict";
-var create = require("./create");
-var build = require("./build");
-var run = require("./run");
+var create = require('./create');
+var build = require('./build');
+var run = require('./run');
 var command = process.argv[2];
 console.log(command);
 if (command == "create") {

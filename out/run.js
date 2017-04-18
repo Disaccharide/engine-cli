@@ -1,5 +1,5 @@
 "use strict";
-var StaticServer = require("static-server");
+var StaticServer = require('static-server');
 function run() {
     var server = new StaticServer({
         rootPath: '.',
